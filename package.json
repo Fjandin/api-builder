@@ -1,0 +1,38 @@
+{
+  "name": "@fjandin/api-builder",
+  "version": "0.1.4",
+  "description": "Api builder for express 4",
+  "readme": "README.md",
+  "main": "index.js",
+  "author": "René Bischoff <rene.bischoff@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fjandin/api-builder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fjandin/api-builder/issues"
+  },
+  "private": false,
+  "files": [
+    "index.js",
+    "lib/"
+  ],
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "dependencies": {
+    "boom": "^7.1.1",
+    "joi": "^13.0.1"
+  },
+  "peerDependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.2",
+    "eslint": "^4.10.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-security": "^1.4.0"
+  }
+}
